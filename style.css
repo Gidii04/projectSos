@@ -1,0 +1,172 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+/* Fonts */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 1rem;
+  max-height: 90vh;
+}
+.mainSide {
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  background-image: url(./images/stripe.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+.section {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  justify-content: center;
+}
+
+.imgs {
+  width: 40px;
+  padding-right: 10px;
+}
+.header {
+  margin-right: 80px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.header h3 {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 50px;
+}
+
+.header p {
+  display: block;
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-bottom: 2rem;
+}
+
+.inputs {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.6rem;
+  border: 1px solid rgb(223, 221, 221);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-family: 'Poppins';
+}
+
+.checks {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+  max-width: 370px;
+}
+.checks label {
+  cursor: pointer;
+}
+.reset {
+  border: none;
+  background: white;
+  font-weight: 700;
+  font-family: 'Poppins';
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 1rem;
+  width: 370px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  background: black;
+  color: white;
+  font-family: 'Poppins';
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.account {
+  font-size: smaller;
+}
+.signup {
+  font-weight: 700;
+  border: none;
+  background: white;
+  font-family: 'Poppins';
+  cursor: pointer;
+}
+.or {
+  display: flex;
+  width: 370px;
+  margin-top: 0.75rem;
+}
+.underline {
+  margin-top: 0.75rem;
+  width: 45%;
+  height: 1px;
+  background: black;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  display: block;
+}
+.btnss {
+  display: flex;
+  font-size: 1rem;
+  width: 370px;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid rgb(223, 221, 221);
+  color: black;
+  font-family: 'Poppins';
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  justify-content: center;
+}
+.svgs {
+  width: 25px;
+  padding-right: 2px;
+}
+
+@media screen and (min-width: 720px) {
+  .inputs {
+    width: 370px;
+  }
+  .mainSide {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .inputs {
+    width: 350px;
+  }
+  .mainSide {
+    width: 350px;
+  }
+}
